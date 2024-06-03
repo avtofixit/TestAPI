@@ -17,3 +17,5 @@ using (var db = new DataClassesDataContext(@"Data Source=DESKTOP-8U3LNMG\SQLEXPR
 
 to some other correct string. or this connection string can be removed and then it is needed to change connection string in web.config
 
+It is supposed to test by sending POST request with segment edges like this -
+https://localhost:44373/API/segment/SearchSegment?x=5.5&y=16&x1=33.20&y1=40
