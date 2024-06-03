@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TestAPI" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-8U3LNMG\SQLEXPRESS2017;Initial Catalog=TestAPI;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="TestAPIConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Segment" Member="Segments">
+    <Type Name="Segment">
+      <Column Name="X" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Y" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="X1" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Y1" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
